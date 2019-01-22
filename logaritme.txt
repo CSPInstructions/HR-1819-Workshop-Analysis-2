@@ -1,0 +1,37 @@
+Een log bestaat uit drie delen:
+- De naam van de functie (Log)
+- De base
+- De target
+
+Log(base) (target) = ?
+
+-----------------------------------------------------------------------------------------
+
+Voordat we kunnen beginnen met het begrijpen van log, nemen we een kijkje naar machten
+Bij een machtberekening zoals 2 ^ 4 wordt er 2 * 2 * 2 * 2 berekent, met als resultaat 16
+
+2 ^ 4 = 16
+
+-----------------------------------------------------------------------------------------
+
+De onderdelen van de base functie kunnen we verwerken in de machtberekening
+We willen berekenen welke macht we moeten gebruiken om tot de target te komen
+
+base ^ ? = target
+2 ^ ? = 16
+
+-----------------------------------------------------------------------------------------
+
+De log functie maakt voor de base gebruikt van een default value, hij is standaard 2
+We hebben de keuze om deze waarde mee te geven, maar het hoeft niet
+
+Log(2) (16) = 4
+Log(16) = 4
+
+-----------------------------------------------------------------------------------------
+
+Als we een andere base willen hebben dan 2, zijn we verplicht om de waarde mee te geven
+We zouden als base bijvoorbeeld het getal 4 kunnen nemen.
+
+4 ^ 2 = 16
+Log(4) (16) = 2
